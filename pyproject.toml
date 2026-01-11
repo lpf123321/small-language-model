@@ -7,12 +7,12 @@ name = "assignment1-basics"
 version = "0.1.0"
 description = "Assignment 1 Basics Project"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 authors = [
     {name = "User", email = "user@example.com"},
 ]
 dependencies = [
-    "torch",
+    "torch==2.8.0",
     "numpy",
     "pyyaml",
     "regex",
